@@ -1,0 +1,2 @@
+# projeto-utilizando-fetch-github-api
+<p>Este projeto foi realiado junto com as aulas do curso do DevQuest, onde eles ensinaram a consumir a API do GitHub e a utilizar o fetch, o projeto consiste em uma página onde o usuário digita o nome de usuário do GitHub e busca os dados via API e retorna o nome da pessoa, a bio, foto de perfil e os últimos 10 repositórios</p>
