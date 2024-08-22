@@ -17,10 +17,10 @@ const screen = {
         user.repositories.forEach(repo => repositoriesItens += `<li>
                                                                     <a href="${repo.html_url}" target="_blank">${repo.name}</a>
                                                                     <div class="info-repo">
-                                                                        <p>🍴${repo.forks_count}</p>
-                                                                        <p>⭐${repo.stargazers_count}</p>
-                                                                        <p>👀${repo.watchers_count}</p>
-                                                                        <p>👨‍💻${repo.language}</p>
+                                                                        <p><span>🍴</span>${repo.forks_count}</p>
+                                                                        <p><span>⭐</span>${repo.stargazers_count}</p>
+                                                                        <p><span>👀</span>${repo.watchers_count}</p>
+                                                                        <p><span>👨‍💻</span>${repo.language}</p>
                                                                     </div>
                                                                 </li>`);
         if (user.repositories.length > 0) {

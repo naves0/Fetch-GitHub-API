@@ -154,12 +154,12 @@ main {
 }
 
 .container .profile-data .repositories ul li .info-repo p {
+  display: flex;
   padding: 5px;
   border-radius: 5px;
   margin-top: 15px;
   color: #fff;
   background-color: rgb(107, 0, 107);
-
 }
 
 .container .profile-data .repositories ul li:hover {
@@ -168,6 +168,7 @@ main {
 }
 
 .container .profile-data .events {
+  padding: 20px;
   text-align: center;
 }
 
@@ -229,4 +230,11 @@ main {
     padding: 0;
   }
 
+  .container .profile-data .info .followers-and-following{
+    flex-direction: column;
+  }
+
+  .container .profile-data .repositories ul li .info-repo p{
+    flex-direction: column;
+  }
 }
